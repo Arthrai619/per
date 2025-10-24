@@ -1,0 +1,47 @@
+/* src/components/EmptyState.module.css */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  width: 100%;
+  grid-column: 1 / -1;
+}
+.icon {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+.wrapper h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.wrapper p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #1A1A1A;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+.button:hover {
+  background-color: #444;
+}

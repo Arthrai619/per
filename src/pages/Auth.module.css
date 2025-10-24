@@ -1,0 +1,92 @@
+/* src/pages/Auth.module.css */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F9F5F1; 
+}
+.container {
+  background: #FFFFFF;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1A1A1A;
+  margin-bottom: 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.formGroup label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+.input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: 'Manrope', sans-serif;
+}
+.input:focus {
+  outline: none;
+  border-color: #333;
+  box-shadow: 0 0 0 3px rgba(51, 51, 51, 0.1);
+}
+.button {
+  background-color: #1A1A1A;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: #444;
+}
+.button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.spinner {
+  animation: spin 1s linear infinite;
+  font-size: 1.25rem;
+}
+.link {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+.link a {
+  color: #1A1A1A;
+  font-weight: 700;
+  text-decoration: none;
+}
